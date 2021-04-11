@@ -8,7 +8,7 @@ using UnityEditor;
 
 public class Health : MonoBehaviour
 {
-   private WWW data;
+    //private WWW data;
     //public static Health hel;
 
     //public int score = 0;
@@ -71,8 +71,8 @@ public class Health : MonoBehaviour
             //Audio.GetComponent<AudioSource>().Play();
 
 
-            if (corr == false)
-            {
+            //if (corr == false)
+            //{
 
 
                 /*string path = Application.streamingAssetsPath + "/Text/" + "Incorrect" + ".txt";
@@ -80,14 +80,14 @@ public class Health : MonoBehaviour
                 string score = File.ReadAllText(final);
                 */
 
-                StartCoroutine(ReadFyll());
+                /*StartCoroutine(ReadFyll());
                 Debug.Log(data.text);
 
                 int curr = int.Parse(data.text);
 
                 curr++;
 
-                StartCoroutine(WriteFyll(curr.ToString()));
+                StartCoroutine(WriteFyll(curr.ToString()));*/
                 
 
                 /*int curr = int.Parse(score);
@@ -95,7 +95,7 @@ public class Health : MonoBehaviour
 
                 File.WriteAllText(path, curr.ToString());
                 Debug.Log(curr.ToString());*/
-            }
+            //}
 
 
             Die();
@@ -105,7 +105,7 @@ public class Health : MonoBehaviour
         }
     }
 
-    public IEnumerator ReadFyll()
+    /*public IEnumerator ReadFyll()
     {
         data = new WWW(Application.streamingAssetsPath + "/Text/" + "Incorrect" + ".txt");
         yield return data;
@@ -123,6 +123,7 @@ public class Health : MonoBehaviour
         yield return data2;
 
     }
+    */
 
 
     public IEnumerator delay()
@@ -162,7 +163,7 @@ public class Health : MonoBehaviour
 
     public void Loadit()
     {
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(9);
     }
 
     public void Update()

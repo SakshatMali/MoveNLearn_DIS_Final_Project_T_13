@@ -21,7 +21,7 @@ public class CarMovement5 : MonoBehaviour
     void Update()
     {
 
-        car.transform.position = car.transform.position + car.transform.forward * .5f;
+        car.transform.position = car.transform.position + car.transform.forward * .1f;
         //Debug.Log(car.transform.rotation.eulerAngles.y);
 
         //Vector3 vs = new Vector3(0, speed, 0);

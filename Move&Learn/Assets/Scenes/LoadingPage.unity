@@ -625,6 +625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cat: {fileID: 1655570102}
+  scene: 1
 --- !u!114 &1656562435
 MonoBehaviour:
   m_ObjectHideFlags: 0

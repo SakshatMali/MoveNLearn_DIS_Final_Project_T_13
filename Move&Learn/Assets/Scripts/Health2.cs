@@ -112,7 +112,7 @@ public class Health2 : MonoBehaviour
 
     public void Loadit()
     {
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(9);
     }
 
     public void Update()

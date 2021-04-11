@@ -8,6 +8,6 @@ public class LoadingScript2 : MonoBehaviour
     private IEnumerator Start()
     {
         yield return new WaitForSeconds(53f);
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(7);
     }
 }

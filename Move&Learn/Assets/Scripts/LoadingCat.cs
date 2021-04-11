@@ -7,7 +7,8 @@ public class LoadingCat : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject cat;
-    private float speed=1f;
+    private float speed=5f;
+    public int scene;
     void Start()
     {
         
@@ -20,6 +21,6 @@ public class LoadingCat : MonoBehaviour
         //Debug.Log(cat.transform.position.x);
 
         if (cat.transform.position.x>=1490f)
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(scene);
     }
 }

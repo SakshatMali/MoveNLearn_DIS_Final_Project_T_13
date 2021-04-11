@@ -41,12 +41,12 @@ public class LoadActivity : MonoBehaviour
 
                     if (string.Equals(ani, "Fox"))
                     {
-                        SceneManager.LoadScene(3);
+                        SceneManager.LoadScene(4);
                     }
 
                     if (string.Equals(ani, "Bee"))
                     {
-                        SceneManager.LoadScene(6);
+                        SceneManager.LoadScene(8);
                     }
                 }
             }
